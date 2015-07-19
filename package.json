@@ -1,0 +1,33 @@
+{
+  "name": "github-unfollow-everyone",
+  "version": "0.0.1",
+  "description": "Start fresh. Unfollow everyone on GitHub.",
+  "repository": "alexbooker/github-unfollow-everyone",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Alex Booker",
+    "email": "alexbooker@fastmail.im",
+    "url": "https://github.com/alexbooker"
+  },
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "github",
+    "git",
+    "unfollow",
+    "followers",
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.3.0",
+    "github": "^0.2.4",
+    "meow": "^3.3.0"
+  }
+}
