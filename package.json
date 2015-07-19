@@ -1,6 +1,6 @@
 {
   "name": "github-unfollow-everyone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Start fresh. Unfollow everyone on GitHub.",
   "repository": "alexbooker/github-unfollow-everyone",
   "scripts": {
