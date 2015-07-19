@@ -22,7 +22,7 @@
     "github",
     "git",
     "unfollow",
-    "followers",
+    "followers"
   ],
   "license": "MIT",
   "dependencies": {
