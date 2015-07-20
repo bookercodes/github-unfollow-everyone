@@ -1,32 +1,25 @@
+![](https://d13yacurqjgara.cloudfront.net/users/2014/screenshots/1095158/attachments/137262/octocat.svg)
+
 #GitHub Unfollow Everyone
 
-_Start fresh. Unfollow everyone who you currently follow on GitHub._
+:fallen_leaf: _Start anew. Unfollow everyone who you currently follow on GitHub._
 
-## Command-line Interface
-
-Installation:
+##CLI
 
 ```
-npm install --global github-unfollow-everyone
+$ npm install --global github-unfollow-everyone
+```
+```
+$ github-unfollow-everyone <username> <password>
 ```
 
-Usage:
+_:warning: Running this command will **ireversibly** unfollow everyone who you currently follow!_
+
+##API
 
 ```
-github-unfollow-everyone <username> <password>
+$ npm install --save github-unfollow-everyone
 ```
-
-This module uses [_basic Authentication_](https://developer.github.com/v3/auth/#basic-authentication), which requires that you enter your credentials. The beautiful thing about Node is that, you can look at the code to make sure nothing dubious is happening :wink:.
-
-##  Application Programming Interface
-
-Installation:
-
-```
-npm install --save github-unfollow-everyone
-```
-
-Usage:
 
 ```javascript
 var unfollowEveryone = require('github-unfollow-everyone');
@@ -39,3 +32,7 @@ unfollowEveryone('<username>', '<password>', function(error) {
   console.log('done.');
 });
 ```
+
+##Related
+
+- [`github-unstar-all`](https://github.com/alexbooker/github-unstar-all)
