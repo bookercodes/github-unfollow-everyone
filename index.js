@@ -22,7 +22,7 @@ function fetchAllFollowings(done) {
       result = result.concat(users);
       var next = users.length === PER_PAGE;
       if (next) {
-        fetch(page + 1);
+        fetch(page + 1, result);
         return;
       }
       done(null, result);
