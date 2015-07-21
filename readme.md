@@ -13,7 +13,7 @@ $ npm install --global github-unfollow-everyone
 $ github-unfollow-everyone <username> <password>
 ```
 
-_:warning: Running this command will **ireversibly** unfollow everyone who you currently follow!_
+_:warning: Running this command will **irreversibly** unfollow everyone who you currently follow!_
 
 ##API
 
